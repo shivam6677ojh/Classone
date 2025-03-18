@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 92vh;
+    /* width: 100vh; */
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.top{
+    height: 7vh;
+    background-color: rgb(105, 237, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.top2{
+    background-color:  rgb(105, 237, 105);
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a{
+    top: 0;
+}
+
+.a a{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    top: 0;
+    text-decoration: none;
+}
+
+.box{
+    height: 12vh;
+    background-color: white;
+    width: 40vh;
+    margin: 20px 20px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.box .one{
+    color: green;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px 10px;
+}
+
+.box .two{
+    margin: 20px 10px;
+}
+
+.footer{
+    bottom: 0;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con p{
+    color: wheat;
+}
+
+.con p a{
+    text-decoration: none;
+    padding: 10px;
+}
